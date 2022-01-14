@@ -1,0 +1,37 @@
+.kembang-relax {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 83px;
+    font-family: "Montserrat-Medium" ;
+}
+.relax {
+    margin: 0 56px;
+    display: flex;
+}
+.relax-title {
+    margin-right: 110px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.relax-title__text h2 {
+    font-size: 40px;
+    color: #2C1500;
+    font-weight: 700;
+}
+.relax-title__img {
+    max-width: 100%;
+}
+.relax-title__img img {
+    width: 100%;
+    height: auto;
+}
+@media screen and (max-width: 964px) {
+    .relax-img{
+        display: none;
+    }
+    .relax-title {
+        margin-right: 0;
+        text-align: center;
+    }
+}

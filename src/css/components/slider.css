@@ -1,0 +1,59 @@
+.kembang-slider {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 83px;
+    font-family: "Montserrat-Medium" ;
+}
+.slider {
+    margin: 0 56px;
+}
+.drop-down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.drop-down__text {
+    font-size: 20px;
+}
+select {
+    padding: 8px 12px;
+    outline: none;
+    font-size: 12px;
+}
+
+.slider__line {
+    height: 1px;
+    background-color: #E0E0E0;
+    margin-bottom: 25px;
+}
+
+.slider-slide {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.slider-slide__product-img {
+    margin-bottom: 17px;
+}
+.slider-slide__product-img img{
+    background-color: #E0E0E0;
+}
+.slider-slide__product-name {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+.slider-slide__product-price {
+    font-weight: 600;
+}
+@media screen and (max-width:1212px) {
+    .slider-slide__product {
+        margin-bottom: 32px;
+    }
+}
+@media screen and (max-width:578px){
+    .slider-slide {
+        justify-content: center;
+    }
+}

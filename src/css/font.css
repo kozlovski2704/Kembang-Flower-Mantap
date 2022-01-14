@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Montserrat-black" ;
+    src: url("/project finish/src/fonts/m3/Montserrat-Black.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Montserrat-Medium" ;
+    src: url("/project finish/src/fonts/m3/Montserrat-Medium.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Montserrat-Regular" ;
+    src: url("/project finish/src/fonts/m3/Montserrat-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Montserrat-SemiBold" ;
+    src: url("/project finish/src/fonts/m3/Montserrat-SemiBold.woff2") format("woff2");
+}

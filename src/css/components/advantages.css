@@ -1,0 +1,46 @@
+.kembang-advantages {
+    max-width: 1300px;
+    margin: 0 auto;
+    margin-bottom: 83px;
+}
+.advantages {
+    margin: 0 56px;
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-cell_info{
+    border: solid 1px rgb(156, 154, 154);
+    padding: 22px 50px 22px 19px;
+    margin-right: 32px;
+}
+.advantages-cell_info:last-child{
+    margin-right: 0;
+}
+.advantages-cell_info-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.info-top-text {
+    color: #156963;
+    font-size: 16px;
+    margin-left: 16px;
+    font-family: "Montserrat-SemiBold" ;
+}
+.advantages-cell_info-bottom {
+    font-family: "Montserrat-Medium" ;
+    font-size: 10px;
+}
+@media screen and (max-width:1080px) {
+    .advantages {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .advantages-cell_info {
+        margin-right: 0;
+        margin-bottom: 32px;
+    }
+    .advantages-cell_info:last-child {
+        margin-bottom: 0;
+    }
+}

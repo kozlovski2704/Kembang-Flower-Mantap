@@ -1,0 +1,10 @@
+h1 {
+    font-family: "Montserrat-Medium" ;
+    font-size: 68px;
+    font-weight: 500;
+    color: #156963;
+}
+.line {
+    height: 1px;
+    background-color: #156963;
+    margin-bottom: 60px;}
